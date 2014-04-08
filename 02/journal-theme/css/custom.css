@@ -1,0 +1,20 @@
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: #bada55;
+}
+.container .jumbotron {
+  border-radius: 0;
+}
+.label {
+  border-radius: 0;
+}
+.label-primary {
+    background-color: #bada55;
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+    background-color: #bada55;
+}

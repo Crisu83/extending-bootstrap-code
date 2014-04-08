@@ -1,0 +1,78 @@
+.container .jumbotron {
+   border-radius: 0;
+ }
+.label {
+  border-radius: 0;
+}
+
+.content {
+  .make-md-column(18);
+
+  article {
+    margin-bottom: 40px;
+  }
+}
+
+.sidebar {
+  .make-md-column(6);
+}
+
+.sidebar-avatar {
+  display: block;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.sidebar-bio {
+  color: @gray;
+}
+
+.carousel {
+  background: lighten(@brand-primary, 35%);
+  height: 400px;
+  margin: -20px 0 40px;
+  width: 100%;
+}
+.carousel-indicators {
+  bottom: -23px;
+  text-align: right;
+
+  li {
+    .square(15px);
+    background: #fff;
+    border-color: @brand-primary;
+
+    &:hover {
+      border-color: lighten(@brand-primary, 10%);
+    }
+
+    &.active {
+      .square(17px);
+      background-color: @brand-primary;
+    }
+  }
+}
+.carousel-inner > .item {
+  min-height: 380px;
+}
+.carousel-caption {
+  background-color: @brand-primary;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: left;
+  text-shadow: none;
+}
+.carousel-control {
+  color: @brand-primary;
+  font-size: 3em;
+  opacity: 1;
+  text-shadow: none;
+
+  &:hover {
+    color: lighten(@brand-primary, 10%);
+  }
+
+  &.left, &.right {
+    background: none;
+  }
+}
